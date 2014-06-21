@@ -1,3 +1,3 @@
 $(document).ready(function(){
-  $(".LNA_paywall_modal_wrapper").parent().remove();
+  $('div[style*="position: absolute; z-index: 10000; top: 0px; left: 0px;"]').remove();
 });

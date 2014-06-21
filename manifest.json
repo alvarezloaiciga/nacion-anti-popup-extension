@@ -1,11 +1,16 @@
 {
   "name":"Nacion Pop Up Blocker",
   "description":"Extension to remove the pop up for non logged users",
-  "version":"0.0.1",
+  "version":"0.0.2",
   "manifest_version":2,
   "content_scripts": [
     {
-    "matches": ["http://www.nacion.com/*","https://www.nacion.com/*"],
+    "matches": [
+      "http://www.nacion.com/*",
+      "https://www.nacion.com/*",
+      "http://www.aldia.cr/*",
+      "https://www.aldia.cr/*"
+    ],
     "js": ["jquery.min.js", "my_script.js"]
   }
   ]
